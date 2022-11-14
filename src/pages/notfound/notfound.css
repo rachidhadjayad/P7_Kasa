@@ -1,0 +1,32 @@
+/* 404 */
+.notfound {
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+.notfound h1 {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 200px;
+
+    color: #FF6060;
+}
+/* Oups! La page que vous demandez n'existe pas. */
+.notfound p {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-size: 36px;
+    color: #FF6060;
+}
+/* Retourner sur la page d’accueil */
+.backhomepage {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration-line: underline;
+    color: #FF6060;
+
+}
+
+@media screen and (min-width: 800px) {
+
+  }

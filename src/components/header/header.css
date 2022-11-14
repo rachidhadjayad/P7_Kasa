@@ -1,0 +1,25 @@
+.navbar a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    color: #FF6060;
+    text-decoration: none;
+    }
+    
+    .navli {
+        margin-top: 54px;
+        margin-left: 50px;
+        margin-right: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .active {
+        border-bottom: 4px solid #FF6060;
+        padding-bottom: 5px;
+        text-decoration: underline;
+        width: auto;
+        color: #FF6060;
+    }
