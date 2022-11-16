@@ -1,25 +1,94 @@
-.navbar a {
-    font-family: 'Montserrat', sans-serif;
+/* _Header */
+
+.navheader {
+    margin-top: 64px;
+    margin-left: 50px;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* _Nav */
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.navli a {
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
+    line-height: 34px;
     color: #FF6060;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    margin-right: 70px;
     text-decoration: none;
-    }
+}
+
+.navli .active {
+    text-decoration: underline solid #FF6060 1px;
+}
+
+/* .LOGO */
+
+.nav-backhomepage img {
+    position: absolute;
+    width: 210px;
+    height: 68px;
+    margin-left: 25px;
+    top: 30px;
+}
     
-    .navli {
-        margin-top: 54px;
-        margin-left: 50px;
-        margin-right: 100px;
+/* _Header-m */
+
+@media (max-width: 375px) {
+    .navheader {
+        margin-top: 44px;
+        margin-left: 20px;
+        margin-right: 20px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        flex-wrap: nowrap;
     }
-    .active {
-        border-bottom: 4px solid #FF6060;
-        padding-bottom: 5px;
-        text-decoration: underline;
-        width: auto;
-        color: #FF6060;
+    
+    /* _Nav */
+    
+    .navbar {
+        margin-top: 6px;
+        margin-right: -20px;
     }
+    
+    .navli a {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 17px;
+        display: flex;
+        margin-right: 12px;
+        margin-top: -9px;
+        text-align: right;
+        text-transform : uppercase;
+    }
+
+    .navli .active {
+        text-decoration: underline solid #FF6060 1px;
+    }
+    
+    /* .LOGO */
+    
+    .nav-backhomepage img {
+        position: absolute;
+        width: 145px;
+        height: 47px;
+        margin-left: 0px;
+        margin-top: -10px;
+    }
+}

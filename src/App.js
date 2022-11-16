@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+// ici on pointe nos routes vers nos differentes pages
 import Home from './pages/home/Home';
 import About from './pages/about/About';
 import Lodging from './pages/lodging/Lodging';

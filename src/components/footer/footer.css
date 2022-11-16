@@ -1,17 +1,16 @@
+/* D_Footer */
+
 .footer {
     position: relative;
-    width: 100%;
-    padding: 30px 0 30px 0;
-    text-align: center;
+    width: auto;
+    height: 209px;
     background: #000000;
-    }
-    
-.footer img {
-    position: relative;
-    }
-    
+}
+
+/* © 2020 Kasa. All rights reserved */
+
 .footer p {
-    font-family: 'Montserrat' sans-serif;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -19,14 +18,39 @@
     align-items: flex-end;
     text-align: center;
     color: #FFFFFF;
-    }
+}
+
+/* .LOGO */
+    
+.footer img {
+    width: 122px;
+    height: 39.44px;
+    margin-top: 66px;
+    margin-left: 700px;
+}
+    
+/* M_Footer */
 
 @media (max-width: 375px) {
     .footer {
-        width: 375px;
+        width: auto;
         height: 209px;
+        background: #000000;
     }
+    
+    /* © 2020 Kasa. All rights reserved */
+    
     .footer p {
         font-size: 12px;
+        line-height: 17px;
+    }
+    
+    /* .LOGO */
+        
+    .footer img {
+        width: 100px;
+        height: 34.44px;
+        margin-top: 62px;
+        margin-left: 132px;
     }
 }

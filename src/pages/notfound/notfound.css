@@ -1,32 +1,83 @@
-/* 404 */
-.notfound {
-    text-align: center;
-    margin: 30px 0 30px 0;
-}
-.notfound h1 {
-    font-family: "Montserrat", sans-serif;
-    font-style: normal;
-    font-size: 200px;
+/* D_404 */
 
+/* 404 */
+
+.notfound h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 288px;
+    line-height: 411px;
+    display: flex;
+    align-items: center;
+    text-align: center;
     color: #FF6060;
+    justify-content: center;
+    margin-top: 45px;
+    margin-bottom: 30px;
 }
+
 /* Oups! La page que vous demandez n'existe pas. */
+
 .notfound p {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat';
     font-style: normal;
+    font-weight: 500;
     font-size: 36px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-items: flex-end;
     color: #FF6060;
+    justify-content: center;
+    margin-bottom: 175px;
+    margin-top: -45px;
 }
+
 /* Retourner sur la page d’accueil */
+
 .backhomepage {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat';
     font-style: normal;
-    font-weight: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
     text-decoration-line: underline;
     color: #FF6060;
-
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 185px;
 }
 
-@media screen and (min-width: 800px) {
+/* M_404 */
 
-  }
+@media (max-width: 375px) {
+
+    /* 404 */
+
+    .notfound h1 {
+        font-size: 96px;
+        line-height: 137px;
+        margin-top: 170px;
+        margin-bottom: 30px;
+    }
+
+    /* Oups! La page que vous demandez n'existe pas. */
+
+    .notfound p {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 125px;
+        margin-top: -45px;
+    }
+
+    /* Retourner sur la page d’accueil */
+
+    .backhomepage {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
