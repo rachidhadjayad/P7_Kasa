@@ -9,6 +9,7 @@ function Header() {
             <div className='navheader'>
                 <div className='logo'>
                     <Link className="nav-backhomepage" to="/">
+                    {/* Les images importées depuis la balise IMG sont accessibles dans "public", pas ici car nous avons crée un fichier dédié  */}
                     <img src={logo} alt="logo header"/>
                     </Link>
                 </div>

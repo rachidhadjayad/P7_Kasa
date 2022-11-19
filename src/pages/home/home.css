@@ -1,0 +1,68 @@
+/* Background */
+
+.content-page {
+    margin-top: 125px;
+}
+
+.background-title {
+    width: 90%;
+    margin-bottom: 48px;
+    mix-blend-mode: darken;
+    opacity: 0.9;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    margin-left: 135px;
+}
+
+/* IMG */
+
+.title-img img {
+    z-index: -1;
+    border-radius: 25px;
+    width: 100%;
+    margin-left: 2px;
+    margin-bottom: -4px;
+}
+
+.title-img {
+    width: 93%;
+}
+
+/* Chez vous, partout et ailleurs */
+
+.home_title {
+    position: absolute;
+    z-index: 3;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 68px;
+    align-items: flex-end;
+    color: #FFFFFF;
+    transform: translate(-50%, -50%);
+    left: 45%;
+    top: 50%;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+/* Background */
+
+.background-home-title {
+    position: absolute;
+    width: 93%;
+    height: 100%;
+    margin: auto;
+    background: rgba(0,0,0,.5);
+    z-index: 2;
+    border-radius: 25px;
+}
+
+@media (max-width: 375px) {
+
+}
