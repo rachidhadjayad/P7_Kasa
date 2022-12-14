@@ -14,7 +14,7 @@ function Header() {
                     </Link>
                 </div>
                 <div className='navbar'>
-                    <div className='navli'>
+                    <div className='navli navli-first'>
                         <NavLink exact="true" to="/" activeclassname="nav-active">
                             Accueil
                         </NavLink>

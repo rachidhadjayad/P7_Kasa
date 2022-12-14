@@ -12,7 +12,7 @@ const App = () => {
       <Routes>
         <Route exact="true" path="/" element={<Home/>}/>
         <Route exact="true" path="/A-Propos" element={<About/>}/>
-        <Route exact="true" path="/Logement" element={<Lodging/>}/>
+        <Route exact="true" path="/logement/*" element={<Lodging/>}/>
 {/* Path="*" fonctionne si jamais l'url ne correspond à rien de déclaré au dessus  */}
         <Route path="*" element={<NotFound/>}/>
       </Routes>
