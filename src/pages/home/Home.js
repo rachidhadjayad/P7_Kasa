@@ -1,8 +1,8 @@
 import Header from '../../components/header/Header';
 import homeimg from '../../assets/images/IMG.png';
-import "./home.css";
 import Banner from '../../components/banner/Banner';
 import LodgingCard from '../../components/lodgingcard/LodgingCard';
+import "./home.css";
 
 
 const Home = () => {

@@ -54,3 +54,23 @@
     margin: 0;
     text-align: center;
 }
+
+@media (max-width: 375px) {
+    
+.home_title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.background-home-title {
+    height: 223px;
+    padding-bottom: 19px;
+}
+
+.title-img img {
+    height: 223px;
+}
+}

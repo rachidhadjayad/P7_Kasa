@@ -1,0 +1,58 @@
+/* D_Fiche-Logement */
+
+.page-presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 100px;
+}
+
+.title-lodging-page {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 51px;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}
+
+.city-title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    color: #FF6060;
+}
+
+.details {
+    display: flex;
+    width: 90%;
+    margin: 25px auto;
+    justify-content: space-between;
+}
+
+.details .details-item {
+}
+
+.details-location-profil-stars {
+    text-align: right;
+}
+
+/* M_Fiche-Logement */
+
+@media (max-width: 375px) {
+
+.accordion-collapse {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border-radius: 5px;
+}
+
+}
+

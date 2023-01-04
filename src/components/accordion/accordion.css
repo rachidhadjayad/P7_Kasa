@@ -1,21 +1,22 @@
 .wrapper {
-    display: flex;
     height: 50%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin: 30px;
 }
 
-.chevronArrow{
+.chevronArrow {
+    display: flex;
     color: white;
+    margin-right: 17px;
 }
 
-.rotateArrow{
+.rotateArrow {
     transform: rotate(180deg);
 }
 
 .accordion {
-    font-family:'Montserrat';
+    font-family:'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 400;
     line-height: 34px;
@@ -23,10 +24,13 @@
     letter-spacing: 0em;
     text-align: left;
     width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .item {
-    background: #F7F7F7;
+    width: 1023px;
     border-radius: 5px;
     height: auto;
     top: 38px;
@@ -36,16 +40,16 @@
 
 .title {
     background: #FF6060;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    height: 47px;
+    height: 52px;
 }
 
 .title h2 {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -64,8 +68,55 @@
 }
 
 .content.show {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
     height: auto;
-    max-height: 9999px;
-    transition: all 0.5s cubic-bezier(1,0,1,0);
-    margin: 18px;
+    max-height: fit-content;
+    transition: all 0.0s cubic-bezier(1,0,1,0);
+    padding: 20px;
+    color: #FF6060;
+    background: #F7F7F7;
+    border-radius: 10px;
+}
+
+.accordion-collapse {
+    display: flex;
+    width: 95%;
+    margin:25px auto;
+    justify-content: space-between;
+} 
+
+.accordion-collapse .wrapper{
+    display: inherit;
+    width: 45%;
+    margin: 0;
+}
+
+@media (max-width: 375px) {
+
+    
+element.style {
+    width: 54%;
+}
+.accordion {
+    width: 105%;
+    margin: -17px;
+}
+
+.title {
+    height: 30px;
+}
+.title h2 {
+    font-size: 13px;
+    line-height: 19px;
+}
+.chevronArrow {
+    margin-right: 1px;
+}
+.chevronArrow img {
+    width: 70%;
+}
 }

@@ -1,0 +1,35 @@
+.avatar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.avatar-img img {
+    width: 64px;
+    height: 64px;
+    left: 1273px;
+    top: 567px;
+    border-radius: 50px;
+    background: #C4C4C4;
+}
+
+.avatar-container .avatar-img{
+    margin-left: 15px;
+}
+
+.avatar-name p {
+    width: 93px;
+    height: 52px;
+    left: 1170px;
+    top: 573px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    color: #FF6060;
+}

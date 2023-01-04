@@ -1,0 +1,31 @@
+.tag-container { 
+    height: 20px;
+    align-items: center;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tags-content {
+    margin-top: 6px;
+}
+
+.tag-container{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tag-container .tags-content {
+    width: 115px;
+    height: 25px;
+    border-radius: 10px;
+    background: #FF6060;
+}

@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
 const LodgingCard = (props) => {
-        // On fait un setData pour mofifier notre data 
+        // On fait un setData pour modifier notre data 
         const [data, setData] = useState ([]);
         // Le useEffect se joue lorsque le composant est monté
         useEffect (() => {
