@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header';
 import "./notfound.css"
 
+
 const NotFound = () => {
     return (
         <div>

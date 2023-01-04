@@ -1,13 +1,12 @@
-import Header from '../../components/header/Header';
 import Data from '../../lodgings.json';
-import NotFound from '../notfound/NotFound';
-import Avatars from '../../components/avatars/Avatars'
+import Header from '../../components/header/Header';
+import Slider from '../../components/slider/Slider';
 import Tags from '../../components/tags/Tags';
+import Avatars from '../../components/avatars/Avatars';
 import Stars from '../../components/stars/Stars';
-import  AccordionCollapse  from '../../components/accordion/AccordionCollapse';
+import AccordionCollapse  from '../../components/accordion/AccordionCollapse';
+import NotFound from '../notfound/NotFound';
 import './lodging.css';
-import Slider from '../../components/Slider/Slider';
-
 
 const Lodging = () => {
       // get id in url param
@@ -46,7 +45,7 @@ const Lodging = () => {
                 </div>
             </div>
         );
-      }else{
+      } else {
         return (
             <div>
                 <NotFound />

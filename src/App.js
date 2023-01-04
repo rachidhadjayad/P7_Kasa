@@ -6,6 +6,7 @@ import About from './pages/about/About';
 import Lodging from './pages/lodging/Lodging';
 import NotFound from './pages/notfound/NotFound';
 
+
 const App = () => {
   return (
     <BrowserRouter>

@@ -5,6 +5,7 @@ import App from './App';
 import Footer from './components/footer/Footer';
 import "./index.css";
 
+
 // Ici on indique où on pointe notre application 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

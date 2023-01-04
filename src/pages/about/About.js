@@ -2,12 +2,12 @@ import React from 'react';
 import homeimg from '../../assets/images/kalen-emsley-Bkci_8qcdvQ-unsplash-2.png';
 import Header from '../../components/header/Header';
 import Banner from '../../components/banner/Banner';
-import './about.css'
 import Accordion from '../../components/accordion/Accordion';
+import './about.css'
+
 
 const About = () => {
 
-    
 const data = [
     {
         about_title: 'Fiabilité',

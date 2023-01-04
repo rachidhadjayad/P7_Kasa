@@ -1,6 +1,7 @@
 import React from 'react';
 import './tags.css'
 
+
 const Tags = (props) => {
     const tagsPart = props.tagsPart;
     return (

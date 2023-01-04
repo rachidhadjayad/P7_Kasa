@@ -89,7 +89,7 @@
     justify-content: space-between;
 } 
 
-.accordion-collapse .wrapper{
+.accordion-collapse .wrapper {
     display: inherit;
     width: 45%;
     margin: 0;
@@ -101,6 +101,7 @@
 element.style {
     width: 54%;
 }
+
 .accordion {
     width: 105%;
     margin: -17px;
@@ -109,13 +110,16 @@ element.style {
 .title {
     height: 30px;
 }
+
 .title h2 {
     font-size: 13px;
     line-height: 19px;
 }
+
 .chevronArrow {
     margin-right: 1px;
 }
+
 .chevronArrow img {
     width: 70%;
 }

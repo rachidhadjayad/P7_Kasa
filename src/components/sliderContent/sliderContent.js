@@ -1,11 +1,7 @@
 import React from 'react';
-// import { useState } from 'react';
+
 
 const SliderContent = ({activeIndex, sliderImage}) => {
-
-
-    console.log(activeIndex);
-    console.log(sliderImage);
 
     return (
         <div className='slideshow'>

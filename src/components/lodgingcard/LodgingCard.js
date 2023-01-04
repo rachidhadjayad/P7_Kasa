@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react';
 import { NavLink } from 'react-router-dom';
 
+
 const LodgingCard = (props) => {
         // On fait un setData pour modifier notre data 
         const [data, setData] = useState ([]);

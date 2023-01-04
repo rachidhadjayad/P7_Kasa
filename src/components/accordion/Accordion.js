@@ -7,7 +7,6 @@ const Accordion = (props) => {
     const data = props.data;
     const y = props.index;
 
-    console.log(data);
     const [selected, setSelected] = useState(null)
 
     const toggle = (i) => {
@@ -16,8 +15,7 @@ const Accordion = (props) => {
         }
         setSelected(i)
     }
-
-    
+ 
     return (
         <div className='wrapper'>
             <div className='accordion'>

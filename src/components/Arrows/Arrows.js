@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 const Arrows = ({prevSlide, nextSlide}) => {
     return (
         <div className='arrows'>
