@@ -30,7 +30,6 @@
 }
 
 .item {
-    width: 1023px;
     border-radius: 5px;
     height: auto;
     top: 38px;
@@ -95,6 +94,24 @@
     margin: 0;
 }
 
+.accordion-collapse .wrapper{
+    width: 50%;
+}
+
+.accordion-collapse .wrapper .item{
+    width: 100%;
+}
+
+@media (max-width: 768px){
+    .accordion-collapse{
+        flex-direction: column;
+    }
+    .accordion-collapse .wrapper{
+        width: 100%;
+        margin-top: -30px;
+    }
+}
+
 @media (max-width: 375px) {
 
     
@@ -103,12 +120,12 @@ element.style {
 }
 
 .accordion {
-    width: 105%;
     margin: -17px;
 }
 
 .title {
     height: 30px;
+    width: 335px;
 }
 
 .title h2 {

@@ -16,11 +16,15 @@
     margin-top: 6px;
 }
 
-.tag-container{
+.tag-container {
     display: flex;
-    width: 75%;
-    justify-content: space-between;
+    /* width: 90%; */
+    /* justify-content: space-between; */
     flex-wrap: wrap;
+}
+
+.tag-container .tags-content{
+    margin-right: 20px;
 }
 
 .tag-container .tags-content {
@@ -28,4 +32,12 @@
     height: 25px;
     border-radius: 10px;
     background: #FF6060;
+}
+
+@media (max-width: 375px) {
+    .tag-container {
+        display: flex;
+        flex-wrap: nowrap;
+        margin-top: 10px;
+    }
 }

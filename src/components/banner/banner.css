@@ -40,7 +40,7 @@
 .home_title {
     position: absolute;
     z-index: 3;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 45px;
@@ -67,7 +67,6 @@
 
 .background-home-title {
     height: 223px;
-    padding-bottom: 19px;
 }
 
 .title-img img {

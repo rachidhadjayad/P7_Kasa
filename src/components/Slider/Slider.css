@@ -5,7 +5,7 @@
 
 :root {
     --heights : 415px;
-    --widths: 95%;
+    --widths: 90%;
 }
 
 .slider-container {
@@ -18,6 +18,7 @@
 
 .active {
     display: inline-block;
+    width: 100%;
 }
 
 .inactive {
@@ -28,6 +29,7 @@
     height: var(--heights);
     width: var(--widths);
     position: relative;
+    width: 100%;
 }
 
 .slide-image {
@@ -47,15 +49,12 @@
     padding: 1rem;
     margin-top: -3rem;
     font-size: 40px;
-    font-weight: bold;
-    border-radius: 0px 5px 5px 0px;
-    background: #FFFFFF;
+    color: #FFFFFF;
 }
 
 
 .prev:hover, .next:hover {
     color: white;
-    background-color: rgba(0, 0, 0, 0.6);
     /* transition: all 0.5s ease-in; */
 }
 
@@ -78,4 +77,15 @@
     right: 50%;
     bottom: 4%;
     transform: translate(-50%);
+}
+
+@media (max-width: 375px) {
+    :root {
+        --heights: 255px;
+        --widths: 90%;
+    }
+
+    .count-image-slider {
+        right: 45%;
+    }
 }
