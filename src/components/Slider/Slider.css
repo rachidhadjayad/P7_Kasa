@@ -47,9 +47,10 @@
     top: 50%;
     width: auto;
     padding: 1rem;
-    margin-top: -3rem;
+    margin-top: -5rem;
     font-size: 40px;
     color: #FFFFFF;
+    font-size: 80px;
 }
 
 
@@ -79,13 +80,22 @@
     transform: translate(-50%);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
     :root {
         --heights: 255px;
         --widths: 90%;
     }
 
+    .prev, .next {
+        margin-top: -25px;
+        font-size: 20px;
+    }
+
     .count-image-slider {
         right: 45%;
+    }
+
+    .count-image-slider{
+        display: none;
     }
 }

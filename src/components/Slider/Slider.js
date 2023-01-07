@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import SliderContent from '../sliderContent/SliderContent';
+import SliderContent from '../slidercontent/SliderContent';
 import Arrows from '../arrows/Arrows';
 import "./slider.css";
 
@@ -21,6 +21,7 @@ const Slider = (props) => {
     return (
         <div className='slider-container'>
             <SliderContent activeIndex={activeIndex} sliderImage={pictures}/>
+            {pictures.length !== 1 ?
             <Arrows
                 prevSlide={()=>{
                     setActiveIndex(activeIndex < 1 ? len : activeIndex - 1)
@@ -30,6 +31,7 @@ const Slider = (props) => {
                     setActiveIndex(activeIndex === len ? 0 : activeIndex + 1)
                 }}
             />
+            : null}
         </div>
     );
 };

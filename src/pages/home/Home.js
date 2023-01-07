@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div>
             <Header />
-            <Banner img={homeimg} title={'Chez vous, partout et ailleurs'} />
+            <Banner img={homeimg} title={'Chez vous, \npartout et ailleurs'} />
             <LodgingCard />
         </div>
     );

@@ -1,5 +1,6 @@
 import React from 'react';
 import homeimg from '../../assets/images/kalen-emsley-Bkci_8qcdvQ-unsplash-2.png';
+import homeimgMob from '../../assets/images/gustavo-alves-YOXSC4zRcxw-unsplash.png';
 import Header from '../../components/header/Header';
 import Banner from '../../components/banner/Banner';
 import Accordion from '../../components/accordion/Accordion';
@@ -31,7 +32,7 @@ const data = [
     return (                                                                                                                                                                                                                           
         <div>
             <Header />
-            <Banner img={homeimg}/>
+            <Banner img={homeimg} imgMobile={homeimgMob}/>
             {data.map((item, i) => (
                 <Accordion data={item} index={i} key={i}/>
             ))}

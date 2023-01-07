@@ -6,9 +6,6 @@ import './accordion.css';
 const Accordion = (props) => {
 
     const {title, description} = props;
-    console.log(props.description);
-
-    console.log(Array.isArray(description));
     
     let tabDescription = [];
 

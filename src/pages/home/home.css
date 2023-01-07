@@ -53,44 +53,40 @@
     overflow-wrap: break-word;
 }
 
-@media (max-width: 992px){
+@media (max-width: 992px) {
     .lodging_item-card {
         width: 45%;
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .lodging_item-card {
         width: 95%;
-        margin: 20px auto;
+        margin: 0px auto 20px auto;
     }
-}
 
-@media (max-width: 375px) {
     .background-title {
-        width: 338px;
-        margin-bottom: 10px;
+        width: 95%;
+        margin-bottom: 40px;
     }
     
     .background-home-title {
-        height: 223px;
+        height: 100%;
     }
-
     .title-img img {
-        width: 335px;
-        height: 223px;
-        background-image:url(../../assets/images/gustavo-alves-YOXSC4zRcxw-unsplash.png
-        )
+        width: 100%;
+        height: 111px;
     }
 
     .home_title {
         font-size: 24px;
         line-height: 26px;
         font-weight: 400;
-        text-align: center;
+        text-align: start;
     }
     .lodging_list {
-        margin-top: 135px;
+        width: 95%;
+        margin-top: -20px;
     }
-    
 }
+

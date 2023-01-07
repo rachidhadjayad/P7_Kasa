@@ -17,7 +17,7 @@
     flex-direction: row;
 }
 
-.navli-first{
+.navli-first {
     margin-right: 70px;
 }
 
@@ -41,7 +41,7 @@
  
 /* _Header-m */
 
-@media (max-width: 375px) {
+@media (max-width: 600px) {
     .navheader {
         margin-left: 20px;
         margin-right: 20px;

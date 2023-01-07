@@ -8,6 +8,7 @@ import AccordionCollapse  from '../../components/accordion/AccordionCollapse';
 import NotFound from '../notfound/NotFound';
 import './lodging.css';
 
+
 const Lodging = () => {
       // get id in url param
       const urlInformation = window.location.search;

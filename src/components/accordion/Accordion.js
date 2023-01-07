@@ -19,14 +19,14 @@ const Accordion = (props) => {
     return (
         <div className='wrapper'>
             <div className='accordion'>
-                    <div className='item'>
+                <div className='item'>
                         <div className='title' onClick={() => toggle(y)}>
                 <h2>{data.about_title}</h2>
                 <span className='chevronArrow'>{selected === y ? <img className='rotateArrow' src={arrowUp} alt="img"/> : <img src={arrowUp} alt="img"/>}</span>
                         </div>
                 <div className={selected === y ? 'content show' : 'content'}>{data.about_description}
                     </div>
-            </div>
+                </div>
             </div>
         </div>
     );

@@ -16,27 +16,19 @@ const Stars = (props) => {
     const starsPart = parseInt(props.starsPart);
 
     const intStart = parseInt(starsPart);
-    let startStatusFull = [];
-    let startStatusEmty= [];
+    let startStatus = [0,0,0,0,0];
 
     for(let i =0; i < intStart; i++){
-        startStatusFull[i] = 1;
-    }
-
-
-    for(let i = intStart; i < 5; i++){
-        startStatusEmty[i] = 0;
+        startStatus[i] = 1;
     }
 
     return (
         <div className='stars'>
-            {startStatusFull.map((item, i) => (
-                <EmptyStar data={item} index={i} key={i}/>
+            {startStatus.map((item, i) => (
+                <div  key={i}>
+                    {item === 1 ? <FullStar data={item} index={i}/> : <EmptyStar data={item} index={i}/>}
+                </div>
             ))}
-            {startStatusEmty.map((item, i) => (
-                <FullStar data={item} index={i} key={i}/>
-            ))}
-           
         </div>
     );
 };

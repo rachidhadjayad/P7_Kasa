@@ -35,6 +35,10 @@
     position: relative;
 }
 
+h2.home_title {
+    padding: 15px;
+}
+
 /* Chez vous, partout et ailleurs */
 
 .home_title {
@@ -55,6 +59,22 @@
     text-align: center;
 }
 
+.background-title .mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .background-title .mobile {
+        display: block;
+        height: 100%;
+        margin-left: 0px;
+        margin-bottom: 0px;
+    }
+    .background-title .desktop {
+        display: none;
+    }
+}
+
 @media (max-width: 375px) {
     
 .home_title {
@@ -71,5 +91,10 @@
 
 .title-img img {
     height: 223px;
+}
+
+h2.home_title {
+    padding: 15px;
+    white-space: pre-wrap;
 }
 }
