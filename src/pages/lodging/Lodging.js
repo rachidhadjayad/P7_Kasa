@@ -7,18 +7,16 @@ import Stars from '../../components/stars/Stars';
 import AccordionCollapse  from '../../components/accordion/AccordionCollapse';
 import NotFound from '../notfound/NotFound';
 import './lodging.css';
+import { useParams } from 'react-router-dom';
 
 
 const Lodging = () => {
-      // get id in url param
-      const urlInformation = window.location.search;
-      const allParamUrl = new URLSearchParams(urlInformation);
-      const id = allParamUrl.get('id');
 
+      const params = useParams();
+      const idAppartement = params.idLodging
+      
     //   recupération des datas de l'id
-      const logementDetails = Data.find(logement => logement.id === id);
-
-
+      const logementDetails = Data.find(logement => logement.id === idAppartement);
 
       if (logementDetails) {
           return (

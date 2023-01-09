@@ -20,7 +20,7 @@ const LodgingCard = (props) => {
             {
                 data.map((item,i) => {
                    return ( 
-                   <NavLink to={'/logement/?id='+item.id} key={i} className="lodging_item-card">
+                   <NavLink to={'/logement/'+item.id} key={i} className="lodging_item-card">
                         <h4 className='lodging-title'>{item.title}</h4>
                         <img src={item.cover} alt={item.title} />
                    </NavLink>)
