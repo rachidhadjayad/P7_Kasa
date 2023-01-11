@@ -1,11 +1,11 @@
 import Data from '../../lodgings.json';
-import Header from '../../components/header/Header';
-import Slider from '../../components/slider/Slider';
-import Tags from '../../components/tags/Tags';
-import Avatars from '../../components/avatars/Avatars';
-import Stars from '../../components/stars/Stars';
-import AccordionCollapse  from '../../components/accordion/AccordionCollapse';
-import NotFound from '../notfound/NotFound';
+import Header from '../../components/header/header';
+import Slider from '../../components/slider/slider';
+import Tags from '../../components/tags/tags';
+import Avatars from '../../components/avatars/avatars';
+import Stars from '../../components/stars/stars';
+import AccordionCollapse  from '../../components/accordion/accordionCollapse';
+import NotFound from '../notfound/notFound';
 import './lodging.css';
 import { useParams } from 'react-router-dom';
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // ici on pointe nos routes vers nos differentes pages
-import Home from './pages/home/Home';
-import About from './pages/about/About';
-import Lodging from './pages/lodging/Lodging';
-import NotFound from './pages/notfound/NotFound';
+import Home from './pages/home/home';
+import About from './pages/about/about';
+import Lodging from './pages/lodging/lodging';
+import NotFound from './pages/notfound/notFound';
 
 
 const App = () => {

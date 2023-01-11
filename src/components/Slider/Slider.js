@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import SliderContent from '../slidercontent/SliderContent';
-import Arrows from '../arrows/Arrows';
+import SliderContent from '../slidercontent/sliderContent';
+import Arrows from '../arrows/arrows';
 import "./slider.css";
 
 

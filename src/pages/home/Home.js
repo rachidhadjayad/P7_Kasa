@@ -1,7 +1,7 @@
-import Header from '../../components/header/Header';
+import Header from '../../components/header/header';
 import homeimg from '../../assets/images/IMG.png';
-import Banner from '../../components/banner/Banner';
-import LodgingCard from '../../components/lodgingcard/LodgingCard';
+import Banner from '../../components/banner/banner';
+import LodgingCard from '../../components/lodgingcard/lodgingCard';
 import "./home.css";
 
 

@@ -1,9 +1,9 @@
 import React from 'react';
 import homeimg from '../../assets/images/kalen-emsley-Bkci_8qcdvQ-unsplash-2.png';
 import homeimgMob from '../../assets/images/gustavo-alves-YOXSC4zRcxw-unsplash.png';
-import Header from '../../components/header/Header';
-import Banner from '../../components/banner/Banner';
-import Accordion from '../../components/accordion/Accordion';
+import Header from '../../components/header/header';
+import Banner from '../../components/banner/banner';
+import Accordion from '../../components/accordion/accordion';
 import './about.css'
 
 
